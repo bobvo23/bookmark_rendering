@@ -1,7 +1,8 @@
 import "./styles.css";
 import Ramen from "./components/Ramen";
 import Sushi from "./components/Sushi";
-
+import Asian from "./components/Asian";
+import Bars from "./components/Bars";
 export default function App() {
   return (
     <div className="App">
@@ -13,6 +14,10 @@ export default function App() {
       <Ramen />
       <h1>Sushi</h1>
       <Sushi />
+      <h1>Asian</h1>
+      <Asian />
+      <h1>Bars</h1>
+      <Bars />
       <footer>
         <p>Developed by bobvo23</p>
       </footer>
