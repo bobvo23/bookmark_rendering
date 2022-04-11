@@ -11,4 +11,6 @@ This is a clean webpage that renders previews lists of links and google maps pla
 
 Live demo: https://csb-91tckc.netlify.app/
 
+![Image demo](./public/demo.png)
+
 Key library: https://www.npmjs.com/package/@dhaiwat10/react-link-preview
