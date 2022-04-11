@@ -3,6 +3,7 @@ import Ramen from "./components/Ramen";
 import Sushi from "./components/Sushi";
 import Asian from "./components/Asian";
 import Bars from "./components/Bars";
+import Nature from "./components/Nature";
 // import { Menu, MenuItem, Page } from "./components/Helpers";
 
 import {
@@ -51,6 +52,10 @@ export default function App() {
     bars: {
       id: "bars",
       label: "Bars"
+    },
+    nature: {
+      id: "nature",
+      label: "Nature"
     }
   };
   return (
@@ -77,6 +82,10 @@ export default function App() {
         <Section id={sections.bars.id}>
           <h1>Bars</h1>
           <Bars />
+        </Section>
+        <Section id={sections.nature.id}>
+          <h1>Nature</h1>
+          <Nature />
         </Section>
         <footer>
           <p>Developed by bobvo23</p>
