@@ -3,7 +3,7 @@ import Ramen from "./components/Ramen";
 import Sushi from "./components/Sushi";
 import Asian from "./components/Asian";
 import Bars from "./components/Bars";
-import { Menu, MenuItem, Page } from "./components/Helpers";
+// import { Menu, MenuItem, Page } from "./components/Helpers";
 
 import {
   useScrollSections,
@@ -23,14 +23,14 @@ type Props = {
 function ProductPageNav({ sections }: Props) {
   const items = useScrollSections();
   return (
-    <Menu>
+    <ul>
       {items &&
         items.map(({ id, onClick }) => (
-          <MenuItem key={id} onClick={onClick}>
+          <button key={id} onClick={onClick}>
             {sections[id]?.label}
-          </MenuItem>
+          </button>
         ))}
-    </Menu>
+    </ul>
   );
 }
 
