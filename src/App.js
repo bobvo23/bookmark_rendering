@@ -12,12 +12,12 @@ import {
 } from "react-scroll-section";
 
 type SectionType = {
-  id: string;
-  label: string;
+  id: string,
+  label: string
 };
 
 type Props = {
-  sections: { [x: string]: SectionType };
+  sections: { [x: string]: SectionType }
 };
 
 function ProductPageNav({ sections }: Props) {
