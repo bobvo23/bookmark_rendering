@@ -24,14 +24,14 @@ type Props = {
 function ProductPageNav({ sections }: Props) {
   const items = useScrollSections();
   return (
-    <ul>
+    <div>
       {items &&
         items.map(({ id, onClick }) => (
           <button key={id} onClick={onClick}>
             {sections[id]?.label}
           </button>
         ))}
-    </ul>
+    </div>
   );
 }
 
