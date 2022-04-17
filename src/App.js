@@ -27,7 +27,7 @@ function ProductPageNav({ sections }: Props) {
     <div>
       {items &&
         items.map(({ id, onClick }) => (
-          <button key={id} onClick={onClick}>
+          <button key={id} className="navbutton" onClick={onClick}>
             {sections[id]?.label}
           </button>
         ))}
@@ -64,7 +64,7 @@ export default function App() {
         <h1>Vancouver Bookmarks</h1>
         <h2>2022 Vancouver City Guide</h2>
       </div>
-      <h2>Quick Navigation</h2>
+      <h2>Jump to Section</h2>
       <ScrollingProvider scrollBehavior="smooth">
         <ProductPageNav sections={sections} />
         <Section id={sections.ramen.id}>
