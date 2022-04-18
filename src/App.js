@@ -39,23 +39,23 @@ export default function App() {
   const sections = {
     ramen: {
       id: "ramen",
-      label: "Ramen"
+      label: "Ramen 🍜"
     },
     sushi: {
       id: "sushi",
-      label: "Sushi"
+      label: "Sushi 🍣"
     },
     asian: {
       id: "asian",
-      label: "Asian"
+      label: "Asian 🍢"
     },
     bars: {
       id: "bars",
-      label: "Bars"
+      label: "Bars 🍹"
     },
     nature: {
       id: "nature",
-      label: "Nature"
+      label: "Nature 🌲"
     }
   };
   return (
