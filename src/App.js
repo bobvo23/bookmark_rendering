@@ -62,7 +62,7 @@ export default function App() {
     <div className="App">
       <div className="header">
         <h1>Vancouver Bookmarks</h1>
-        <h2>2022 Vancouver City Guide</h2>
+        <h2>Vancouver City Guide</h2>
       </div>
       <h2>Jump to Section</h2>
       <ScrollingProvider scrollBehavior="smooth">
